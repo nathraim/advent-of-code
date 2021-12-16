@@ -1,5 +1,4 @@
 import numpy as np
-import sys
 
 with open("input.txt") as f:
     fishlist = np.array(list(map(int,f.readline()[:-1].split(','))))
